@@ -29,12 +29,7 @@ function RobotCoocker (){
        this.setMesseg(messeg);
 }
 
-let robot = new Robot();
-let coffeRobot = new CoffeRobot();
-let robotDancer = new RobotDancer();
-let robotCoocker = new RobotCoocker();
-
-arrRobot = [robot, robotDancer, robotCoocker, coffeRobot];
+let arrRobot = [new Robot(), new CoffeRobot(), new RobotDancer(), new RobotCoocker()];
 
 for (let i=0; i<arrRobot.length; i++){
     arrRobot[i].work();
