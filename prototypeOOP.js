@@ -11,7 +11,7 @@ function Robot(){
    }
 
 function CoffeRobot (){
-   var messeg = "Я CoffeRobot – я варю каву";
+   let messeg = "Я CoffeRobot – я варю каву";
    this.setMesseg (messeg);
       }
 
@@ -19,7 +19,7 @@ function CoffeRobot (){
  CoffeRobot.prototype.constructor = CoffeRobot;
 
 function RobotDancer (){
-    var messeg ="Я RobotDancer – я просто танцюю";
+    let messeg ="Я RobotDancer – я просто танцюю";
     this.setMesseg(messeg);
     }
 
@@ -27,7 +27,7 @@ function RobotDancer (){
  RobotDancer.prototype.constructor = RobotDancer;
 
 function RobotCoocker (){
-   var messeg ="Я RobotCoocker – я просто готую";
+   let messeg ="Я RobotCoocker – я просто готую";
    this.setMesseg(messeg);
    }
 

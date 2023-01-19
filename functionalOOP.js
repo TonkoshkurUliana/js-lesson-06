@@ -13,19 +13,19 @@ function Robot(){
 
 function CoffeRobot (){
    Robot.call(this);
-   var messeg = "Я CoffeRobot – я варю каву";
+   let messeg = "Я CoffeRobot – я варю каву";
    this.setMesseg(messeg);
  }
 
 function RobotDancer (){
     Robot.call(this);
-    var messeg ="Я RobotDancer – я просто танцюю";
+    let messeg ="Я RobotDancer – я просто танцюю";
     this.setMesseg(messeg);
 }
 
 function RobotCoocker (){
    Robot.call(this);
-   var messeg ="Я RobotCoocker – я просто готую";
+   let messeg ="Я RobotCoocker – я просто готую";
        this.setMesseg(messeg);
 }
 
